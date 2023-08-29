@@ -1,0 +1,37 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  cursor: pointer;
+  transition: .5s;
+  background-color: white;
+  width: 230px;
+  gap: 40px;
+  padding: 20px 0 0 20px;
+
+  &__actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  &__date {
+    font-size: 16px;
+  }
+}
+
+.task__buttons{
+  display: flex;
+}
+
+.state-red:hover{
+  background-color: #F4E0E0;
+}
+.state-grey:hover{
+  background-color: #E1E1E1;
+}
+.state-green:hover{
+  background-color: #D6F3D4;
+}

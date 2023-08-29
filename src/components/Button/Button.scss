@@ -1,0 +1,13 @@
+button {
+  display: flex;
+  transition: .5s;
+  cursor: pointer;
+  font-size: 40px;
+  font-weight: normal;
+  align-items: center;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+

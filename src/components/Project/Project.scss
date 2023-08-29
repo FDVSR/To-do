@@ -1,0 +1,30 @@
+.project-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .project {
+    background-color: white;
+    width: fit-content;
+    transition: .3s ease-out;
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 30px;
+    font-size: 40px;
+
+    &:hover {
+      transform: scale(1.01);
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 300;
+      width: 1150px;
+      text-align: left;
+    }
+  }
+}
+
+
